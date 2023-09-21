@@ -76,9 +76,9 @@ export default function Button({
         disabled={disabled ? true : false}
         onClick={onClick}
       >
-        {startIcon && <Icon>{startIcon}</Icon>}
+        {startIcon && <span>{startIcon}</span>}
         {children}
-        {endIcon && <Icon>{endIcon}</Icon>}
+        {endIcon && <span>{endIcon}</span>}
       </button>
     )
   );
