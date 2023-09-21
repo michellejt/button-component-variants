@@ -1,5 +1,4 @@
 import React from "react";
-import Icon from "@material-ui/core/Icon";
 
 // Define an object with the CSS class names
 const buttonClasses = {
