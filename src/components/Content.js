@@ -9,7 +9,7 @@ export default function Content() {
       <div className="flex-1 p-10 font-bold">
         <h1 className="text-gray-2 text-2xl">Buttons</h1>
         {/* Use grid-cols-2 for the first 6 buttons */}
-        <div className="grid grid-cols-4 gap-4 pt-4">
+        <div className="grid grid-cols-[150px_auto] gap-4 pt-4">
           <div className="justify-items-center">
             <pre className="text-xs text-gray-1">
               <code>
@@ -30,7 +30,7 @@ export default function Content() {
           </div>
         </div>
 
-        <div className="grid grid-cols-4 gap-4 pt-4">
+        <div className="grid grid-cols-[150px_auto] gap-4 pt-4">
           <div className="justify-items-center">
             <pre className="text-xs text-gray-1">
               <code>
@@ -51,7 +51,7 @@ export default function Content() {
           </div>
         </div>
 
-        <div className="grid grid-cols-4 gap-4 pt-4">
+        <div className="grid grid-cols-[150px_auto] gap-4 pt-4">
           <div className="justify-items-center pb-5">
             <pre className="text-xs text-gray-1 mb-1.5">
               <code>
@@ -72,7 +72,7 @@ export default function Content() {
           </div>
         </div>
 
-        <div className="grid grid-cols-4 gap-4 pt-4">
+        <div className="grid grid-cols-[150px_auto] gap-4 pt-4">
           <div className="justify-items-center">
             <pre className="text-xs text-gray-1">
               <code>
@@ -84,7 +84,7 @@ export default function Content() {
           </div>
         </div>
 
-        <div className="grid grid-cols-4 gap-4 pt-4">
+        <div className="grid grid-cols-[150px_auto] gap-4 pt-4">
           <div className="justify-items-center">
             <pre className="text-xs text-gray-1">
               <code>
@@ -107,7 +107,7 @@ export default function Content() {
           </div>
         </div>
 
-        <div className="grid grid-cols-4 gap-4 pt-4">
+        <div className="grid grid-cols-[250px_auto] gap-4 pt-4">
           <div className="justify-items-center">
             <pre className="text-xs text-gray-1">
               <code>

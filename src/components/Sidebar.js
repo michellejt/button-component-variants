@@ -20,13 +20,13 @@ export default function Sidebar({ children }) {
           <nav>
             <a
               href="#"
-              className="block py-2.5 px-4 hover:bg-blue-700 rounded hover:text-white"
+              className="block text-primary py-2.5 px-4 hover:bg-blue-700 rounded hover:text-white"
             >
               Home
             </a>{" "}
             <a
               href="#"
-              className="block py-2.5 px-4 hover:bg-blue-700 rounded hover:text-white"
+              className="block text-primary py-2.5 px-4 hover:bg-blue-700 rounded hover:text-white"
             >
               Buttons
             </a>
