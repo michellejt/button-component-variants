@@ -115,7 +115,7 @@ export default function Content() {
                 {`<Button startIcon="add_shopping_cart"/>`}
               </code>
             </pre>
-            <Button startIcon="add_shopping_cart">Default</Button>
+            <Button startIcon="🛒">Default</Button>
           </div>
           <div className="justify-items-center">
             <pre className="text-xs text-gray-1">
@@ -124,7 +124,7 @@ export default function Content() {
                 {`<Button endIcon="local_grocery_store"/>`}
               </code>
             </pre>
-            <Button endIcon="local_grocery_store">Default</Button>
+            <Button endIcon="🛒">Default</Button>
           </div>
         </div>
 
