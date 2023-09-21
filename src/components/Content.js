@@ -77,7 +77,7 @@ export default function Content() {
             <pre className="text-xs text-gray-1">
               <code>
                 {/* Use template literals to insert the props */}
-                {`<Button />`}
+                {`<Button disableShadow/>`}
               </code>
             </pre>
             <Button variant="disableShadow">Default</Button>
@@ -89,19 +89,21 @@ export default function Content() {
             <pre className="text-xs text-gray-1">
               <code>
                 {/* Use template literals to insert the props */}
-                {`<Button variant="disabled/>`}
+                {`<Button disabled/>`}
               </code>
             </pre>
-            <Button variant="disabled">Default</Button>
+            <Button disabled>Default</Button>
           </div>
           <div className="justify-items-center">
-            <pre className="text-xs">
+            <pre className="text-xs text-gray-1 mb-1.5">
               <code>
                 {/* Use template literals to insert the props */}
-                {`<Button variant="text-disabled/>`}
+                {`<Button variant="text" disabled/>`}
               </code>
             </pre>
-            <Button variant="text-disabled">Default</Button>
+            <Button variant="text" disabled>
+              Default
+            </Button>
           </div>
         </div>
 
@@ -110,19 +112,19 @@ export default function Content() {
             <pre className="text-xs text-gray-1">
               <code>
                 {/* Use template literals to insert the props */}
-                {`<Button startIcon=""/>`}
+                {`<Button startIcon="add_shopping_cart"/>`}
               </code>
             </pre>
-            <Button startIcon="disableShadow">Default</Button>
+            <Button startIcon="add_shopping_cart">Default</Button>
           </div>
           <div className="justify-items-center">
             <pre className="text-xs text-gray-1">
               <code>
                 {/* Use template literals to insert the props */}
-                {`<Button endIcon=""/>`}
+                {`<Button endIcon="local_grocery_store"/>`}
               </code>
             </pre>
-            <Button endIcon="disableShadow">Default</Button>
+            <Button endIcon="local_grocery_store">Default</Button>
           </div>
         </div>
 
@@ -203,7 +205,7 @@ export default function Content() {
                 {`&:hover, &:focus`}
               </code>
             </pre>
-            <Button color="default" state="hover">
+            <Button color="default" variant="default-hover">
               Default
             </Button>
           </div>
@@ -214,7 +216,7 @@ export default function Content() {
                 {`&:hover, &:focus`}
               </code>
             </pre>
-            <Button color="primary" state="hover">
+            <Button color="primary" variant="primary-hover">
               Default
             </Button>
           </div>
@@ -225,7 +227,7 @@ export default function Content() {
                 {`&:hover, &:focus`}
               </code>
             </pre>
-            <Button color="secondary" state="hover">
+            <Button color="secondary" variant="secondary-hover">
               Default
             </Button>
           </div>
@@ -235,8 +237,8 @@ export default function Content() {
                 {/* Use template literals to insert the props */}
                 {`&:hover, &:focus`}
               </code>
-            </pre>
-            <Button color="danger" state="hover">
+            </pre>{" "}
+            <Button color="danger" variant="danger-hover">
               Default
             </Button>
           </div>
